@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>SQL_MULTI_VALUE_HELPER</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>appstore.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\appstore.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appstore.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\appstore.png" />
+  </ItemGroup>
+
+</Project>
