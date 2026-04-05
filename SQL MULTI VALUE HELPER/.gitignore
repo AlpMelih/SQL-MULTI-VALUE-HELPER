@@ -1,0 +1,38 @@
+# Visual Studio / WPF C# projeleri için .gitignore
+
+## Build sonuçları
+bin/
+obj/
+Debug/
+Release/
+
+## Visual Studio geçici dosyaları
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / Resharper
+.idea/
+*.DotSettings.user
+
+## Paket yöneticileri
+packages/
+*.nupkg
+*.snupkg
+
+## Visual Studio Code
+.vscode/
+
+## Diğer
+*.log
+*.pdb
+*.cache
+*.ilk
+*.bak
+*.tmp
+*.tmp_proj
+
+# Publish çıktıları
+publish/
